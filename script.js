@@ -62,14 +62,14 @@ const movesCounter = document.getElementById("moves");
 const explanationContainer = document.getElementById("explanation-container");
 
 // Sound Effects
-const matchSound = new Audio('song/the-correct-answer-33-183620.mp3');
-const mismatchSound = new Audio('song/wrong-answer-21-199825.mp3');
-const flipSound = new Audio('song/SWSH_Sword that cuts (ID 0127)_BSB.wav');
+const matchSound = new Audio('the-correct-answer-33-183620.mp3');
+const mismatchSound = new Audio('wrong-answer-21-199825.mp3');
+const flipSound = new Audio('SWSH_Sword that cuts (ID 0127)_BSB.wav');
 
 // Background music for each level
 const levelMusic = [
-  new Audio('song/puzzle-loop-67641.mp3'),
-  new Audio('song/puzzle-loop-67641.mp3'),
+  new Audio('puzzle-loop-67641.mp3'),
+  new Audio('puzzle-loop-67641.mp3'),
   // Add more levels as needed
 ];
 
